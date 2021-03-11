@@ -23,7 +23,7 @@ class Basket extends Component {
                   <b>{item.title}</b>
                   <button
                     style={{ float: "right" }}
-                    className="btn btn-danger btn-xs"
+                    className="btn btn-danger btn-xs btn-color"
                     onClick={(e) =>
                       this.props.removeFromCart(this.props.cartItems, item)
                     }
@@ -44,7 +44,7 @@ class Basket extends Component {
             </b>
             <button
               onClick={() => alert("Todo: Implement checkout page.")}
-              className="btn btn-primary"
+              className="btn btn-primary btn-color"
             >
               checkout
             </button>

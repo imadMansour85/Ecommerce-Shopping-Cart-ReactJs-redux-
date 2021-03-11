@@ -1,6 +1,7 @@
 {
   "name": "ecommerce-shopping-cart",
   "version": "0.1.0",
+  "homepage": "https://basir.github.io/ecommerce-shopping-cart",
   "private": true,
   "dependencies": {
     "cors": "^2.8.5",

@@ -8,10 +8,9 @@ class Products extends Component {
     this.props.fetchProducts();
   }
   render() {
-    {console.log(this.props);}
     const productItems = this.props.products.map((product) => (
-      <div className="col-md-4" key={product.id}>
-        <div className="thumbnail text-center">
+      <div className="col-md-4 " key={product.id}>
+        <div className="thumbnail text-center cart">
           <a
             href={`#${product.id}`}
             onClick={(e) => this.props.addToCart(this.props.cartItems, product)}
@@ -21,8 +20,8 @@ class Products extends Component {
           </a>
           <b>{util.formatCurrency(product.price)}</b>
           <button
-            className="btn btn-primary"
-            onClick={(e) => this.props.handleAddToCart(e, product)}
+            className="btn btn-primary btn-color"
+            onClick={(e) => this.props.addToCart(this.props.cartItems, product)}
           >
             Add to cart
           </button>
