@@ -5,7 +5,7 @@ Simple Shopping Cart using Redux
 
 ## Install
 ```
-$ clone git@github.com/ImadMansour-imint/Shoping-Cart-ReactJs-redux-.git
+$ git clone @github.com/ImadMansour-imint/Shoping-Cart-ReactJs-redux-.git
 $ yarn
 ```
 
