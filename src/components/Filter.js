@@ -10,7 +10,7 @@ class Filter extends Component {
           <label>
             Order by
             <select
-              className="form-control"
+              className="form-control  filter-color"
               value={this.props.sort}
               onChange={(event) => {
                 this.props.sortProducts(
@@ -30,7 +30,7 @@ class Filter extends Component {
             {" "}
             Filter Size
             <select
-              className="form-control"
+              className="form-control  filter-color"
               value={this.props.size}
               onChange={(event) => {
                 this.props.filterProducts(

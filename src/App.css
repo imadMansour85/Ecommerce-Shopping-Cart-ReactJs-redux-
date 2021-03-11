@@ -48,3 +48,23 @@ body{
 p{
   color: black;
 }
+.filter-color{
+  background-color: #f3efef;
+  color: black;
+}
+.btn-color-checkout{
+  background-color: black;
+  color: white;
+}
+.btn-color-checkout:hover{
+  background-color: white !important;
+  color: black !important;
+}
+.btn-color-remove{
+  background-color: black;
+  color: white;
+}
+.btn-color-remove:hover{
+  background-color: #f44336;
+  color: white;
+}
